@@ -5,7 +5,7 @@ cask "outlier" do
   url "https://github.com/Outlier-host/outlier-app-releases/releases/download/v#{version}/Outlier-#{version}-arm64.dmg",
       verified: "github.com/Outlier-host/outlier-app-releases/"
   name "Outlier"
-  desc "Private AI chat and coding agent that runs entirely on your Mac"
+  desc "Private AI chat and coding agent that runs local models"
   homepage "https://outlier.host/?utm_source=homebrew"
 
   livecheck do
@@ -15,7 +15,7 @@ cask "outlier" do
 
   auto_updates true
   depends_on arch: :arm64
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Outlier.app"
 
