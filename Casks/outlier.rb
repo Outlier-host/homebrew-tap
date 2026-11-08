@@ -1,6 +1,6 @@
 cask "outlier" do
-  version "1.11.1000"
-  sha256 "540e3de374a5f7d9c3094dd2bfb00a85d178af4050633ec6364ce8691c3db022"
+  version "1.11.1001"
+  sha256 "2f8d928bd09a4d88cd38b5f85d7f7499dd47ab825db0a983b1330c5fef5cb368"
 
   url "https://github.com/Outlier-host/outlier-app-releases/releases/download/v#{version}/Outlier-#{version}-arm64.dmg",
       verified: "github.com/Outlier-host/outlier-app-releases/"
